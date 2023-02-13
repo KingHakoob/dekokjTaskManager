@@ -1,0 +1,139 @@
+body {
+    background-color: lightblue;
+}
+
+#siteTitle {
+    text-align: center;
+}
+
+#siteSubTxt {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#createTaskBtnDiv {
+    display: flex;
+    justify-content: center;
+}
+
+/* Task Display Start */
+.taskTitle {
+    text-align: center;
+}
+
+#toDoDiv {
+    padding: 0rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+#inProgressDiv {
+    padding: 0rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+#completeDiv {
+    padding: 0rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+#toDoBodyDiv {
+    background-color: white;
+    height: 28rem;
+    overflow: scroll;
+    border-radius: 5px;
+}
+
+#toDoBodyDiv::-webkit-scrollbar{
+    display: none;
+}
+
+#inProgressBodyDiv {
+    background-color: white;
+    height: 28rem;
+    overflow: scroll;
+    border-radius: 5px;
+}
+
+#inProgressBodyDiv::-webkit-scrollbar{
+    display: none;
+}
+
+#completeBodyDiv {
+    background-color: white;
+    height: 28rem;
+    overflow: scroll;
+    border-radius: 5px;
+}
+
+#completeBodyDiv::-webkit-scrollbar{
+    display: none;
+}
+
+.taskTxt {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.taskTxtWhite {
+    color: white;
+}
+
+.taskBtns {
+    width: 80%;
+}
+
+.taskBtnsWhite {
+    border: 0.1rem solid white;
+}
+
+.lowPriority {
+    background-color: rgb(28, 202, 28);
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    border-radius: 5px;
+}
+
+.mediumPriority {
+    background-color: rgb(255, 255, 0);
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    border-radius: 5px;
+}
+
+.highPriority {
+    background-color: rgb(214, 56, 56);
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    border-radius: 5px;
+}
+
+.taskSpacingDiv {
+    padding-top: 0.5rem;
+}
+
+/* Task Display End */
+
+/* Task Modal Start */
+
+#taskInputTxtDiv {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.modalBodyCols {
+    display: flex;
+    justify-content: center;
+}
+
+/* Task Modal End */
